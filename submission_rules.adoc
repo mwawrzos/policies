@@ -478,7 +478,9 @@ Submitters must run the compliance tests for their closed division submissions t
 
 #### Training
 
-Refer to the documentation found under https://github.com/mlcommons/logging/tree/master/mlperf_logging/package_checker
+Refer to the [package_checker documentation](https://github.com/mlcommons/logging/tree/master/mlperf_logging/package_checker)
+and the [system_description_checker documentation](https://github.com/mlcommons/logging/tree/master/mlperf_logging/system_desc_checker).
+If the submission is compliant, both tools will pass.
 
 #### Inference
 
