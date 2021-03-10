@@ -413,9 +413,9 @@ The file <system_desc_id>_<implementation_id>.json should metadata describing us
 ### Logging requirements
 
 For Training, the results logs must be verified and stamped by the training log verification script [TODO log]. The easiest way to produce such a log is to use the 
-[mlperf_logging.mllog package](https://github.com/mlcommons/logging/tree/master/mlperf_logging/mllog).
+https://github.com/mlcommons/logging/tree/master/mlperf_logging/mllog[mlperf_logging.mllog package].
 
-For Inference, the results logs must have been produced by the [standard load generator](https://github.com/mlperf/inference/tree/master/loadgen). Power information may be appended using the standard power information appending script [TODO link or remove].
+For Inference, the results logs must have been produced by the https://github.com/mlperf/inference/tree/master/loadgen[standard load generator]. Power information may be appended using the standard power information appending script [TODO link or remove].
 
 
 ### Source code requirements for replication
@@ -476,8 +476,8 @@ This requirement applies even to Open submissions, though the aspects do not nee
 
 #### Training
 
-Submitters must run the [package_checker](https://github.com/mlcommons/logging/tree/master/mlperf_logging/package_checker)
-and the [system_description_checker](https://github.com/mlcommons/logging/tree/master/mlperf_logging/system_desc_checker) tools
+Submitters must run the https://github.com/mlcommons/logging/tree/master/mlperf_logging/package_checker[package_checker]
+and the https://github.com/mlcommons/logging/tree/master/mlperf_logging/system_desc_checker[system_description_checker] tools
 to verify that their submission achieves a basic level of compliance with a subset of the MLPerf rules.
 If compliance tools identifies a potential issue with the submission, the onus is on the submitter to provide an adequate explanation to the results review committee.
 
