@@ -474,15 +474,16 @@ This requirement applies even to Open submissions, though the aspects do not nee
 
 ### Compliance Testing
 
-Submitters must run the compliance tests for their closed division submissions to verify that their submission achieves a basic level of compliance with a subset of the MLPerf rules. If compliance testing identifies a potential issue with the submission, the onus is on the submitter to provide an adequate explanation to the results review committee.
-
 #### Training
 
-Refer to the [package_checker documentation](https://github.com/mlcommons/logging/tree/master/mlperf_logging/package_checker)
-and the [system_description_checker documentation](https://github.com/mlcommons/logging/tree/master/mlperf_logging/system_desc_checker).
-If the submission is compliant, both tools will pass.
+Submitters must run the [package_checker](https://github.com/mlcommons/logging/tree/master/mlperf_logging/package_checker)
+and the [system_description_checker](https://github.com/mlcommons/logging/tree/master/mlperf_logging/system_desc_checker) tools
+to verify that their submission achieves a basic level of compliance with a subset of the MLPerf rules.
+If compliance tools identifies a potential issue with the submission, the onus is on the submitter to provide an adequate explanation to the results review committee.
 
 #### Inference
+
+Submitters must run the compliance tests for their closed division submissions to verify that their submission achieves a basic level of compliance with a subset of the MLPerf rules. If compliance testing identifies a potential issue with the submission, the onus is on the submitter to provide an adequate explanation to the results review committee.
 
 Refer to the documentation found under https://github.com/mlperf/inference/tree/master/compliance/nvidia
 
