@@ -413,6 +413,7 @@ The file <system_desc_id>_<implementation_id>.json should metadata describing us
 ### Logging requirements
 
 For Training, the results logs must be verified and stamped by the training log verification script [TODO log]. The easiest way to produce such a log is to use the 
+[mlperf_logging.mllog package](https://github.com/mlcommons/logging/tree/master/mlperf_logging/mllog).
 
 For Inference, the results logs must have been produced by the [standard load generator](https://github.com/mlperf/inference/tree/master/loadgen). Power information may be appended using the standard power information appending script [TODO link or remove].
 
